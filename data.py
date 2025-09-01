@@ -1,6 +1,5 @@
 import pandas as pd
 from config.config import Config 
-#class DataLoader:
 
 urls = []
 
