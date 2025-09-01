@@ -9,9 +9,9 @@ try:
     urls = df['photo_image_url'].to_list()
 
     row_count = len(urls)
-
+#
     print(f"The number of rows after filtering is: {row_count}")
-
+#
 except KeyError as e:
     print(f"Error: One of the specified columns was not found in the DataFrame. Details: {e}")
 except Exception as e:
